@@ -35,3 +35,7 @@ with this program. If not, visit: https://www.gnu.org/licenses/
 if ( ! defined('ABSPATH') ) {
     exit;
 }
+
+//including files from admin
+require_once plugin_dir_path(__FILE__ ) . 'admin/admin-menu.php';
+require_once  plugin_dir_path(__FILE__ ) . 'admin/settings-page.php';
